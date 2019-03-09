@@ -1,0 +1,30 @@
+body {
+    font-size: 25px;
+    font-family: "Tahoma";
+}
+
+h1{
+    color: #000;
+    width: 500px;
+}
+
+h2{
+    color: black;
+    width: 700px;
+    border: 1px darkgrey;
+    text-decoration: underline overline;
+}
+
+.padre {
+    background: wheat;
+    height: 100px;
+    /*IMPORTANTE*/
+    justify-content: center;
+    align-items: center;
+}
+
+.hijo {
+    background: white;
+    width: 900px;
+}
+
